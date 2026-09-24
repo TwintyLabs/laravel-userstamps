@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-userstamps` will be documented in this file.
 
+## v1.0.1 - 2026-09-24
+
+**Full Changelog**: https://github.com/TwintyLabs/laravel-userstamps/compare/v1.0.0...v1.0.1
+
 ## v1.0.0 - 2026-09-24
 
 ### What's Changed
