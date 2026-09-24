@@ -8,6 +8,4 @@ namespace Illuminate\Database\Schema;
  * @method void dropUserstamps()
  * @method void dropSoftUserstamps()
  */
-class Blueprint
-{
-}
+class Blueprint {}

@@ -49,7 +49,7 @@ class UserstampsMacro implements MacroInterface
 
     private function registerUserstamps(): void
     {
-        Blueprint::macro('userstamps', function (): Blueprint  {
+        Blueprint::macro('userstamps', function (): Blueprint {
             $createdByColumn = config('userstamps.created_by_column').'_id';
             $updatedByColumn = config('userstamps.updated_by_column').'_id';
 

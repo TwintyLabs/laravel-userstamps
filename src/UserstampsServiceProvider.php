@@ -2,9 +2,9 @@
 
 namespace TwintyLabs\Userstamps;
 
-use TwintyLabs\Userstamps\Database\Schema\Macros\UserstampsMacro;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+use TwintyLabs\Userstamps\Database\Schema\Macros\UserstampsMacro;
 
 class UserstampsServiceProvider extends PackageServiceProvider
 {
