@@ -1,6 +1,6 @@
 {
   "name": "twintylabs/laravel-userstamps",
-  "description": "Package to add userstamps to models.",
+  "description": "Laravel package for tracking the users who create, update, and delete Eloquent models with support for standard and polymorphic (morph) userstamp relationships.",
   "keywords": [
     "laravel",
     "eloquent",
@@ -8,7 +8,10 @@
     "created_by",
     "updated_by",
     "deleted_by",
-    "model-events"
+    "model-events",
+    "polymorphic",
+    "morph",
+    "audit"
   ],
   "homepage": "https://github.com/TwintyLabs/laravel-userstamps",
   "license": "MIT",
