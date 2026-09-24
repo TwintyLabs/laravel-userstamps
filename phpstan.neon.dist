@@ -1,0 +1,14 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 5
+    paths:
+        - src
+        - config
+    tmpDir: build/phpstan
+    checkOctaneCompatibility: true
+    checkModelProperties: true
+    ignoreErrors:
+        - '#Trait TwintyLabs\\Userstamps\\Concerns\\HasUserstamps is used zero times#'
+        - '#Call to an undefined method Illuminate\\Database\\Eloquent\\Model::usingSoftDeletes#'
