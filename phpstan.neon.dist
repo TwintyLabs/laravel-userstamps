@@ -12,3 +12,4 @@ parameters:
     ignoreErrors:
         - '#Trait TwintyLabs\\Userstamps\\Concerns\\HasUserstamps is used zero times#'
         - '#Call to an undefined method Illuminate\\Database\\Eloquent\\Model::usingSoftDeletes#'
+        - '#Class App\\Models\\User not found#'
